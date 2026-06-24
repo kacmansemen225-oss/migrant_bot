@@ -4,7 +4,7 @@ import time
 from flask import Flask
 from threading import Thread
 
-app = Flask(name)
+app = Flask(_name_)
 
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
 ADMIN_ID = 1222595258
